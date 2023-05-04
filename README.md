@@ -11,6 +11,13 @@ The objective of this challenge is to create an implementation of a highly custo
 - The component should be customizable from the structured configuration object (that you'll find in the `src/app/page.tsx` file)
 - We're more interested in the code quality than the UI design but feel free to make it look nice, it's always a plus (we will provide you with examples on how it should look like)
 
+## Key takeaways
+- The coding style and (naming conventions)[https://github.com/labs42io/clean-code-typescript] should be given the highest priority as they will be the primary criteria for evaluation.
+- The main objective of this test is to assess your problem-solving skills, design thinking, and the quality of your code.
+- It is essential to focus on building a compact and efficient application that adheres to software engineering principles and industry best practices.
+
+The goal of this challenge is to evaluate the way of thinking, the quality of code design, and the accuracy to read and follow instructions. It's also considered as first onboarding step to join our organization.
+
 ## What you'll find in this repository
 - A basic next.js app with a single page containing a datatable and the drawer component to implement
 - Type definitions for the relations and the configuration object
