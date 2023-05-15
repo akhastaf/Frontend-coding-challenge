@@ -15,6 +15,7 @@ The objective of this challenge is to create an implementation of a highly custo
 - The coding style and (naming conventions)[https://github.com/labs42io/clean-code-typescript] should be given the highest priority as they will be the primary criteria for evaluation.
 - The main objective of this test is to assess your problem-solving skills, design thinking, and the quality of your code.
 - It is essential to focus on building a compact and efficient application that adheres to software engineering principles and industry best practices.
+- It is essential to push your repository before adding any changes to it, and push progressively with meaningful commit messages.
 
 The goal of this challenge is to evaluate the way of thinking, the quality of code design, and the accuracy to read and follow instructions. It's also considered as first onboarding step to join our organization.
 
