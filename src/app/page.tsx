@@ -194,6 +194,11 @@ export default function Home() {
       dataIndex: "formatted_number",
       key: "formatted_number",
       // TODO: render as clickable to open the drawer with the correct ID
+      onCell: (record) => ({
+        onClick: () => {
+          openDrawer(record.id)
+        }
+      })
     },
     {
       title: "Client",

@@ -1,3 +1,5 @@
+import { useInvoice } from "@/hooks/useInvoice";
+import { Button, Space, Drawer as AntDrawer } from "antd";
 import type { FC } from "react";
 
 export interface DrawerProps {
@@ -8,7 +10,20 @@ export interface DrawerProps {
 
 export const Drawer: FC<DrawerProps> = ({ open, relationId, onClose }) => {
   // TODO: implement
-  return <></>;
+  const { data: invoice } = useInvoice(relationId)
+  console.log(JSON.stringify(invoice))
+  return <>
+    <AntDrawer
+        title="Invoice"
+        placement="right"
+        size="large"
+        onClose={onClose}
+        open={open}
+        
+      >
+        {/* <p>{ invoice.id }</p> */}
+      </AntDrawer>
+  </>;
 };
 
 // TODO: implement
